@@ -30,3 +30,5 @@ if resultado:
     print(f"El valor {valor_buscado} se encontró en la posición: {resultado}")
 else:
     print(f"El valor {valor_buscado} no se encontró en la matriz.")
+
+
