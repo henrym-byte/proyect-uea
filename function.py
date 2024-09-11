@@ -47,6 +47,10 @@ temperaturas = [
 ]
 
 promedios = calcular_promedio_temperaturas(temperaturas)
+#calcular_promedio_temperaturas recibe una matriz temperaturas que contiene los datos de temperatura de múltiples ciudades y semanas.
 
 for ciudad, promedio in enumerate(promedios, start=1):
     print(f"Promedio de temperatura para Ciudad {ciudad}: {promedio:.2f}°C")
+
+# La función itera sobre cada ciudad y luego sobre cada semana dentro de esa ciudad
+# Para cada ciudad, suma todas las temperaturas de todas las semanas y calcula el promedio dividiendo la suma total de temperaturas por el número total de días.
