@@ -46,6 +46,7 @@ temperaturas = [
     ]
 ]
 
+
 promedios = calcular_promedio_temperaturas(temperaturas)
 #calcular_promedio_temperaturas recibe una matriz temperaturas que contiene los datos de temperatura de múltiples ciudades y semanas.
 
