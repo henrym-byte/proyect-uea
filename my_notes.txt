@@ -1,0 +1,3 @@
+Primera linea: Recuerda siempre comentar el codigo.
+Segunda linea: Python facilita la manipulacion de archivos.
+Tercera linea: La practica constante mejora la programacion.
